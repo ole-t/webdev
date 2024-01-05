@@ -1,0 +1,91 @@
+body {
+   // height: 100vh; // - это означает 100% от вертикальной области просмотра
+   // width: 100vw; // - это означает 100% от вертикальной области просмотра
+   //   margin: 0;
+   //   padding: 0;
+   //   overflow: hidden;
+   //===
+   //   background: "black";
+   //   height: 100%;
+   //   max-height: 100%;
+   //   width: 100%;
+   //   min-width: 100%;
+   //   overflow: hidden;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+   color: lavender;
+}
+
+p {
+   margin-top: 10px;
+}
+
+.mAbzats_1 {
+   margin-top: 10px;
+   text-indent: 30px;
+   // width: 10px;
+   // min-height: 30px;
+   // border: solid 1px;
+}
+
+.wasVievStyle {
+   transition: 0.5s;
+   //color: yellow;
+   background-color: rgb(216, 156, 156);
+}
+
+div {
+   display: flex;
+}
+
+// для всех объектов - это атрибуты Реакт-компонента, содержащего svg-файл
+.mSvgFile {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   height: 100%; // это параметр указывать желательно, т.к. у разных SVG видимо пазличные настройки внутри файла
+   fill: yellow;
+}
+
+.leftMenuItemStyle {
+   cursor: pointer;
+}
+
+.isActive_leftMenuItemStyle {
+   color: red;
+   cursor: default;
+}
+
+// ПОЛОСА ПРОКРУТКИ
+// Контеннер-фон
+::-webkit-scrollbar {
+   // border: solid 2px red;
+   border-radius: 6px;
+   width: 12px;
+   height: 12px; // для горизонтальных
+   // background: red;
+   //background: rgba($color: #2c4a52, $alpha: 0.8);
+}
+// Полоса прокрутки
+::-webkit-scrollbar-track {
+   // border: solid 2px rgb(47, 0, 255);
+   // border-radius: 8px;
+   // height: 50%;
+   // padding: 2px;
+   // background: yellow;
+}
+// Бегунок
+::-webkit-scrollbar-thumb {
+   border-radius: 6px;
+   // border: solid 1px chartreuse;
+   // background: rgb(64, 128, 0);
+   background: rgba($color: #3a8ca1, $alpha: 0.8);
+}
+::-webkit-scrollbar-thumb:hover {
+   // background: rgb(105, 209, 0);
+}

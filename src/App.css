@@ -1,0 +1,63 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: lavender;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.mAbzats_1 {
+  margin-top: 10px;
+  text-indent: 30px;
+}
+
+.wasVievStyle {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: rgb(216, 156, 156);
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mSvgFile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  fill: yellow;
+}
+
+.leftMenuItemStyle {
+  cursor: pointer;
+}
+
+.isActive_leftMenuItemStyle {
+  color: red;
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  border-radius: 6px;
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgba(58, 140, 161, 0.8);
+}
